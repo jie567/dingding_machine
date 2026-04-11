@@ -1,0 +1,12 @@
+User:
+  client_id: xxx
+  client_secret: xxx
+  ROBOT_CODE: xxx
+
+
+
+
+chat_group:
+  - chat_name: xxx
+    chat_id: xxx
+    openSpaceId: xxx==

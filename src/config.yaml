@@ -1,0 +1,18 @@
+User:
+  client_id: dingauagw57e2pnwn9hu
+  client_secret: koc8X5R89JlQtG1v7GVsCckBqCSPPP7isMW6pR9ig3B1pFDW9T_ef4faBt3vQZQo
+  ROBOT_CODE: dingauagw57e2pnwn9hu
+
+chat_group:
+  - chat_name: 每日监控表自动化
+    chat_id: chat846258591d4cd7ee0e3d340bdd074d43
+    openSpaceId: cidRBQGNhX9VeQQHcV6mYg5ww==
+  - chat_name: 每日航线效益日报群
+    chat_id: chatfdb9835cb580520f223638caa345e830
+    openSpaceId: cidnYXJAFWm7qOtgtuVrtB3bQ==
+  - chat_name: 航班订座人数预测结果校验群
+    chat_id: chat9efb82e2277a77bd5cce958d2a1afd45
+    openSpaceId: cidZRcL2xTKnp3OOiENKlNunQ==
+  - chat_name: 机器人测试群
+    chat_id: chatdbf714606bde86a565d7bb01767fdd75
+    openSpaceId: cidfuwh+KjY45tEla0wCxzisA==

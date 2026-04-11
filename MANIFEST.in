@@ -1,0 +1,27 @@
+include README.md
+include LICENSE
+include requirements.txt
+include main.py
+
+# 包含src目录下的所有资源文件
+recursive-include src *.yaml
+recursive-include src *.yml
+recursive-include src *.xlsx
+recursive-include src *.sql
+recursive-include src *.md
+
+# 包含resources目录
+recursive-include resources *.xlsx
+recursive-include resources *.sql
+recursive-include resources *.md
+
+# 排除不必要的文件
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude .DS_Store
+global-exclude *.swp
+global-exclude *.swo
+global-exclude *~
+global-exclude .git
+global-exclude .idea

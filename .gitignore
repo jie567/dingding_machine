@@ -1,0 +1,5 @@
+build/
+logs/
+resources/excels/
+./test/
+./requirements.txt
