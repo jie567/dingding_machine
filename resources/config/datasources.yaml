@@ -2,7 +2,6 @@
 # 支持环境变量引用，格式：${VAR_NAME} 或 ${VAR_NAME:default_value}
 
 data_sources:
-  # Oracle 主数据库（复用现有）
   oracle_main:
     type: oracle
     host: 192.168.1.73
@@ -11,11 +10,10 @@ data_sources:
     user: AIR_SJ_JY
     password: ${ORACLE_PASSWORD}  # 从环境变量读取
     pool_min: 2
-    pool_max: 10
+    pool_max: 8
     timeout: 30
     default: true
-  
-  # PostgreSQL 报表数据库
+
   postgres_report:
     type: postgresql
     host: 192.168.1.100
@@ -26,8 +24,7 @@ data_sources:
     pool_min: 2
     pool_max: 8
     timeout: 20
-  
-  # Doris 分析数据库
+
   doris_analytics:
     type: doris
     host: 192.168.1.200

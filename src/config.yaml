@@ -16,3 +16,24 @@ chat_group:
   - chat_name: 机器人测试群
     chat_id: chatdbf714606bde86a565d7bb01767fdd75
     openSpaceId: cidfuwh+KjY45tEla0wCxzisA==
+
+
+llm_providers:
+  primary:
+    name: "通义千问"
+    model: "qwen-plus"
+    api_key: sk-eb2200338b2d4dbe88f5369323e4672b
+    api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+    use_cases: ["数据分析", "SQL 生成", "中文对话"]
+    
+  secondary:
+    name: "DeepSeek"
+    model: "deepseek-reasoner"
+    api_key: sk-96e39bb62ac2488eaf9d435cf77b7a94
+    api_base: https://api.deepseek.cn/v1
+    use_cases: ["复杂推理", "降级备用"]
+    
+  fallback:
+    name: "本地模型"
+    model: "qwen2.5-7b-instruct"
+    use_cases: ["网络故障降级", "敏感数据处理"]

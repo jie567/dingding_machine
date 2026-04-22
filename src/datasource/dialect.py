@@ -5,7 +5,6 @@ SQL 方言处理工具
 """
 import re
 import sqlparse
-from typing import Optional
 from .exceptions import SQLInjectionRiskException
 
 

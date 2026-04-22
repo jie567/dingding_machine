@@ -3,3 +3,6 @@ logs/
 resources/excels/
 ./test/
 ./requirements.txt
+./.idea
+./.trae
+./anthropic-skills
